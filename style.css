@@ -1,0 +1,69 @@
+body, html {
+    height: 100%; /* Sets the height of the body and html elements to 100% */
+    margin: 0; /* Removes default margin */
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #ff4e50, #f9d423);
+
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+#storyContent {
+    display: none;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #080034;
+    border-radius: 10px;
+    overflow-y: auto; /* Add this to allow scrolling inside the content */
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Change this to flex-start */
+    height: 100vh;
+    overflow-y: auto; /* Add this to allow scrolling */
+}
+.story-container {
+    width: 720px;
+    margin: 0 auto; /* This will center the container on the page */
+    padding: 20px; /* Optional: Adds some padding around the text */
+}
+
+canvas {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #000;
+    border-radius: 7px;
+    height: 500px; /* Set a specific height for the canvas */
+    width: 700px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
